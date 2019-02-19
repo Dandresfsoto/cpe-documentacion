@@ -1,0 +1,38 @@
+cpe.settings package
+====================
+
+Submodules
+----------
+
+cpe.settings.base module
+------------------------
+
+.. automodule:: cpe.settings.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cpe.settings.dev module
+-----------------------
+
+.. automodule:: cpe.settings.dev
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cpe.settings.prod module
+------------------------
+
+.. automodule:: cpe.settings.prod
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: cpe.settings
+    :members:
+    :undoc-members:
+    :show-inheritance:

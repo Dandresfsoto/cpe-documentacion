@@ -1,0 +1,29 @@
+.. CPE documentation master file, created by
+   sphinx-quickstart on Mon Jan 21 11:12:58 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+===============================
+Sistema de información CPE
+===============================
+
+
+En este espacio se encuentra la documentación del sistema de información desarrollado en `Django <https://www.djangoproject.com/>`_
+para **COMPUTADORES PARA EDUCAR** enmarcado en su propósito misional cuya finalidad es centralizar la consulta
+y verificación de los distintos instrumentos que se recopilan durante la ejecución de las actividades propias del programa.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+
+   stack
+   config
+
+
+
+Indices y tablas
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
