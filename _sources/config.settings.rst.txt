@@ -1,0 +1,37 @@
+config.settings
+===============
+
+Submodulos
+----------
+
+config.settings.base
+--------------------
+
+.. automodule:: config.settings.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+config.settings.dev
+-------------------
+
+.. automodule:: config.settings.dev
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+config.settings.heroku
+----------------------
+
+.. automodule:: config.settings.heroku
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+config.settings.prod
+--------------------
+
+.. automodule:: config.settings.prod
+    :members:
+    :undoc-members:
+    :show-inheritance:

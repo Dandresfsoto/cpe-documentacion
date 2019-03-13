@@ -1,0 +1,67 @@
+.wy-side-nav-search{
+    background-color: #fcfcfc;
+    padding-top: 50px;
+}
+
+.wy-side-nav-search>div.version{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.wy-nav-side{
+    background: #154283;
+    color: white;
+    border-right: solid 1px #c9c9c9;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a{
+    background: #159FDB;
+    color: white;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a{
+    background: #159FDB;
+    color: white;
+}
+
+.wy-menu-vertical li.toctree-l2{
+    background: #159FDB;
+}
+
+.wy-menu-vertical li.toctree-l2 a, .wy-menu-vertical li.toctree-l3 a, .wy-menu-vertical li.toctree-l4 a{
+    color: white;
+}
+
+.wy-menu-vertical a:hover{
+    background: #72AE2F;
+}
+
+.wy-menu-vertical li.current a:hover{
+    background: #72AE2F;
+}
+
+.wy-menu-vertical li span.toctree-expand{
+    color: white;
+}
+
+.wy-menu-vertical li.toctree-l2 span.toctree-expand{
+    color: white;
+}
+
+.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand{
+    color: white;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a{
+    background: #15AFFB;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a{
+    background: #72AE2F;
+    color: white;
+}
+
+.wy-nav-content{
+    background: white;
+}
+

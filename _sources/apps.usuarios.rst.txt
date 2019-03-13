@@ -1,0 +1,64 @@
+Usuarios
+=====================
+
+Submodulos
+----------
+
+apps.usuarios.admin
+--------------------------
+
+.. automodule:: apps.usuarios.admin
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+apps.usuarios.apps
+-------------------------
+
+.. automodule:: apps.usuarios.apps
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+apps.usuarios.forms
+--------------------------
+
+.. automodule:: apps.usuarios.forms
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+apps.usuarios.models
+---------------------------
+
+.. automodule:: apps.usuarios.models
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. autoclass:: apps.usuarios.models.User
+
+
+apps.usuarios.tests
+--------------------------
+
+.. automodule:: apps.usuarios.tests
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+apps.usuarios.urls
+-------------------------
+
+.. automodule:: apps.usuarios.urls
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+apps.usuarios.views
+--------------------------
+
+.. automodule:: apps.usuarios.views
+    :members:
+    :undoc-members:
+    :show-inheritance:
