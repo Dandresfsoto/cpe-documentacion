@@ -2,16 +2,16 @@ Configuración del proyecto
 ==========================
 
 En la carpeta **config** se encuentra la configuración principal del proyecto, por comodidad en el desarrollo el archivo
-**settings** se convirtio en un subpaquete con la finalidad de dividir las preferencias del entorno de desarrollo y producción.
+**settings** se convirtio en un subpaquete para dividir las preferencias del entorno de desarrollo y producción.
 
 Subpaquetes
 -----------
-
 .. toctree::
+    :maxdepth: 1
 
     config.settings
 
-config.urls module
+config.urls
 ---------------
 
 .. automodule:: config.urls
@@ -19,10 +19,18 @@ config.urls module
     :undoc-members:
     :show-inheritance:
 
-config.wsgi module
+config.wsgi
 ---------------
 
 .. automodule:: config.wsgi
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+config.views
+---------------
+
+.. automodule:: config.views
     :members:
     :undoc-members:
     :show-inheritance:

@@ -13,16 +13,20 @@ JavaScript y pone la web a disposición del usuario [1]_.
 
 Lenguaje de programación
 ------------------------
-- `Python 3.7.2 <https://www.python.org/>`_
+- `Python 3.6.7 <https://www.python.org/>`_
+
+Docker
+------------
+- `Docker 18.09.2, build 6247962 <https://www.docker.com/>`_
 
 Servidor web
 ------------
-- `Nginx 1.14.2 <https://nginx.org/>`_
+- `Nginx <https://nginx.org/>`_
 
 
 Bases de datos
 --------------
-- `PostgreSQL 11.1 <https://www.postgresql.org/>`_
+- `SQL Server 2012 <https://www.microsoft.com/es-co/download/details.aspx?id=50003>`_
 - `Redis 5.0.3 <https://redis.io/>`_
 
 Framework backend
@@ -31,7 +35,9 @@ Framework backend
 
 Framework frontend
 ------------------
+- `Color Admin 4.3.0 - Licencia: 367d78fa-cc48-4f9e-827d-5a158f4f207c <https://wrapbootstrap.com/theme/color-admin-admin-template-front-end-WB0N89JMK/>`_
 - `Bootstrap 4.1.3 <https://getbootstrap.com/>`_
+
 
 Todas las demas dependencias pueden ser consultadas en el archivo **requirements.txt** del repositorio.
 

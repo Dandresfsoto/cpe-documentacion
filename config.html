@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Configuración del proyecto &mdash; documentación de CPE - 1.0.0</title>
+  <title>Configuración del proyecto &mdash; documentación de SIM - 1.0.0</title>
   
 
   
@@ -26,8 +26,10 @@
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="config.settings" href="config.settings.html" />
     <link rel="prev" title="Web Stack" href="stack.html" /> 
 
   
@@ -47,9 +49,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> CPE
+            <a href="index.html">
           
 
+          
+            
+            <img src="_static/sim.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -85,13 +90,16 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="stack.html">Web Stack</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Configuración del proyecto</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#subpaquetes">Subpaquetes</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="#subpaquetes">Subpaquetes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="config.settings.html">config.settings</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#config-urls-module">config.urls module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#config-wsgi-module">config.wsgi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#config-urls">config.urls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-config.wsgi">config.wsgi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#config-views">config.views</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="apps.html">Apps</a></li>
 </ul>
 
             
@@ -106,7 +114,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">CPE</a>
+          <a href="index.html">SIM</a>
         
       </nav>
 
@@ -159,21 +167,27 @@
   <div class="section" id="configuracion-del-proyecto">
 <h1>Configuración del proyecto<a class="headerlink" href="#configuracion-del-proyecto" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>En la carpeta <strong>config</strong> se encuentra la configuración principal del proyecto, por comodidad en el desarrollo el archivo
-<strong>settings</strong> se convirtio en un subpaquete con la finalidad de dividir las preferencias del entorno de desarrollo y producción.</p>
+<strong>settings</strong> se convirtio en un subpaquete para dividir las preferencias del entorno de desarrollo y producción.</p>
 <div class="section" id="subpaquetes">
 <h2>Subpaquetes<a class="headerlink" href="#subpaquetes" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="config.settings.html">config.settings</a></li>
+</ul>
 </div>
 </div>
-<div class="section" id="config-urls-module">
-<h2>config.urls module<a class="headerlink" href="#config-urls-module" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="config-urls">
+<h2>config.urls<a class="headerlink" href="#config-urls" title="Enlazar permanentemente con este título">¶</a></h2>
 </div>
-<div class="section" id="config-wsgi-module">
-<h2>config.wsgi module<a class="headerlink" href="#config-wsgi-module" title="Enlazar permanentemente con este título">¶</a></h2>
-<span class="target" id="module-config.wsgi"></span><p>Configuración WSGI para el proyecto CPE.</p>
+<div class="section" id="module-config.wsgi">
+<span id="config-wsgi"></span><h2>config.wsgi<a class="headerlink" href="#module-config.wsgi" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Configuración WSGI para el proyecto CPE.</p>
 <p>Este archivo expone el WSGI invocable como una variable de nivel de módulo llamada <code class="docutils literal notranslate"><span class="pre">application</span></code>.</p>
 <p>Para más información sobre este archivo, vea
 <a class="reference external" href="https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/">https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/</a></p>
+</div>
+<div class="section" id="config-views">
+<h2>config.views<a class="headerlink" href="#config-views" title="Enlazar permanentemente con este título">¶</a></h2>
 </div>
 </div>
 
@@ -184,6 +198,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="config.settings.html" class="btn btn-neutral float-right" title="config.settings" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="stack.html" class="btn btn-neutral" title="Web Stack" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>

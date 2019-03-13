@@ -18,6 +18,7 @@ y verificación de los distintos instrumentos que se recopilan durante la ejecuc
 
    stack
    config
+   apps
 
 
 
